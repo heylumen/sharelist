@@ -14,7 +14,7 @@
     "release": "node ../../scripts/release.js --skipBuild --skipNpmPublish"
   },
   "dependencies": {
-    "@koa/cors": "^3.1.0",
+    "@koa/cors": "^5.0.0",
     "@sharelist/core": "^0.1",
     "@sharelist/webdav": "^0.1",
     "bonjour": "^3.5.0",
@@ -30,15 +30,15 @@
     "koa-sendfile": "^3.0.0",
     "koa-session-minimal": "^4.0.0",
     "koa-static-cache": "^5.1.4",
-    "markdown-it": "^12.0.6",
+    "markdown-it": "^15.0.2",
     "mime": "^2.5.2",
     "nanoid": "^3.1.23",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.3.2",
     "node-rsa": "^1.1.1",
     "webdav": "^4.6.0",
     "write-file-atomic": "^3.0.3",
-    "xml2js": "^0.4.23",
-    "yaml": "^1.10.2"
+    "xml2js": "^0.6.2",
+    "yaml": "^2.9.1"
   },
   "pkg": {
     "scripts": [
